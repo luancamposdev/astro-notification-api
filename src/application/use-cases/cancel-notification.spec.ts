@@ -4,7 +4,7 @@ import { NotificationNotFound } from '@application/use-cases/errors/notification
 import { makeNotification } from '@test/factories/notification-factory';
 
 describe('Cancel notification', () => {
-  it('Should to be able to cancel notification', async () => {
+  it('Should be able to cancel notification', async () => {
     const notificationsRepository = new InMemoryNotificationsRepository();
     const cancelNotification = new CancelNotification(notificationsRepository);
 
