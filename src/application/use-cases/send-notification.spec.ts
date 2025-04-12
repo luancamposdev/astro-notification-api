@@ -2,7 +2,7 @@ import { SendNotification } from './send-notification';
 import { InMemoryNotificationsRepository } from '../../../test/repositories/in-memory-notifications-repository';
 
 describe('Send notification', () => {
-  it('Should to be able to send notification', async () => {
+  it('Should be able to send notification', async () => {
     const notificationsRepository = new InMemoryNotificationsRepository();
     const sendNotification = new SendNotification(notificationsRepository);
 
