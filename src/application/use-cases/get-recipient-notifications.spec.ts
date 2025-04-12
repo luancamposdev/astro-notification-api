@@ -3,7 +3,7 @@ import { GetRecipientNotifications } from '@application/use-cases/get-recipient-
 import { makeNotification } from '@test/factories/notification-factory';
 
 describe('Get recipient notifications', () => {
-  it('should to be able to get notifications by recipient id', async () => {
+  it('should  be able to get notifications by recipient id', async () => {
     const notificationRepository = new InMemoryNotificationsRepository();
     const getRecipientNotifications = new GetRecipientNotifications(
       notificationRepository,
