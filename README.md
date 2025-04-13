@@ -115,7 +115,7 @@ npm run test:watch
 
 ## 📄 Licença
 
-Este projeto está sob a licença [MIT](LICENSE).
+Este projeto está sob a licença [MIT].
 
 ## 🙋‍♂️ Autor
 
