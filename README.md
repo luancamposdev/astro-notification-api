@@ -113,10 +113,6 @@ npm run test:watch
 | `npm run lint`                  | Verifica formatação e boas práticas               |
 | `npm run format`                | Formata o código com Prettier                     |
 
-## 📄 Licença
-
-Este projeto está sob a licença [MIT].
-
 ## 🙋‍♂️ Autor
 
 Feito com 💜 por [Luan Campos](https://github.com/luancamposdev)
